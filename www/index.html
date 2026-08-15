@@ -1,57 +1,434 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Eastern River Post and Beam | Custom Timber Frame Buildings & Barns</title>
+    <meta name="description" content="Custom designed timber frame buildings for comfortable living. Authentic post and beam homes, barns, and additions built with traditional mortise and tenon joinery in Vermont." />
+    <meta name="keywords" content="timber frame, post and beam, timber framing, Vermont barns, mortise and tenon, wood joinery, custom homes" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
-    <title>Eastern River Post and Beam</title>
-
-    <style>
-
-      body {
-        background-color: #c7d0bc;
-      }
-
-      #title {
-        padding-top: 5%;
-        padding-bottom: .5em;
-        font-family: "Fredericka the Great", serif;
-      }
-
-      #subtitle {
-        padding-top: 1em;
-        color: #555;
-      }
-      
-      img {
-        width: 60%
-      }
-      
-    </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="media/css/styles.css" />
   </head>
   <body>
+    <!-- Site Header -->
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="#hero" class="brand-link" aria-label="Eastern River Post and Beam Homepage">
+          <span class="brand-title">Eastern River</span>
+          <span class="brand-tagline">Post &amp; Beam</span>
+        </a>
 
-    <div class="container-fluid text-center">
-      <h1 id="title">Eastern River <br/> Post and Beam</h1>
-      <img class="rounded border border-dark" src="frame-480x360.JPG" />
-      <h5 id="subtitle">Custom designed timber frame buildings for comfortable living.</h5>
+        <nav class="site-nav" aria-label="Primary Navigation">
+          <a href="#portfolio-overview" class="nav-link">Projects</a>
+          <a href="#portfolio-gallery" class="nav-link">Gallery</a>
+          <a href="#the-craft" class="nav-link">The Craft</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
 
-      <p>For inquiries, please call <a href="tel:8027654704">(802) 765-4704</a> or 
-        <a href=mailto:info@easternriverpostandbeam.com>info@easternriverpostandbeam.com</a>.
-      </p>
+        <div class="nav-actions">
+          <a href="#contact" class="btn btn-primary">Inquire</a>
+          <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" id="mobile-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer">
+      <a href="#portfolio-overview" class="nav-link">Projects</a>
+      <a href="#portfolio-gallery" class="nav-link">Gallery</a>
+      <a href="#the-craft" class="nav-link">The Craft</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="tel:8027654704" class="btn btn-secondary">Call (802) 765-4704</a>
     </div>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section" id="hero">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-content">
+              <span class="hero-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                Vermont Timber Craftsmanship
+              </span>
+
+              <h1 class="hero-title">
+                Handcrafted Timber Frames <span>Built for Generations</span>
+              </h1>
+
+              <p class="hero-lead">
+                Custom designed timber frame buildings for comfortable living.
+              </p>
+
+              <div class="hero-stats">
+                <div class="stat-item">
+                  <span class="stat-value">100%</span>
+                  <span class="stat-label">Traditional Joinery</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-value">VT</span>
+                  <span class="stat-label">Native Timbers</span>
+                </div>
+              </div>
+
+              <div class="hero-cta-group">
+                <a href="#portfolio-gallery" class="btn btn-primary">
+                  <span>Explore Portfolio</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                </a>
+                <a href="#the-craft" class="btn btn-secondary">
+                  <span>Our Process</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+              <div class="hero-image-card">
+                <img src="media/img/Cover-photos/Cover-photos-1544369248978748.jpg" alt="Signature timber frame building by Eastern River Post and Beam" />
+                <div class="hero-image-overlay">
+                  <div class="hero-image-caption">
+                    <h4>Traditional Frame Raising</h4>
+                    <p>Heavy white pine timber bents &amp; mortise joinery</p>
+                  </div>
+                  <a href="#portfolio-gallery" class="btn btn-dark" style="padding: 0.5rem 1rem; font-size: 0.8125rem;">View Album</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Project Albums Overview -->
+      <section class="albums-overview-section" id="portfolio-overview">
+        <div class="container">
+          <div class="section-header text-center" style="text-align: center; max-width: 680px; margin: 0 auto 3.5rem;">
+            <span class="section-tag">Curated Collections</span>
+            <h2 class="section-title">Featured Timber Frame Projects</h2>
+            <p class="section-subtitle" style="margin: 0 auto;">
+              Explore our photographic archives detailing completed homes, agricultural barns, community frame raisings, and workshop joinery.
+            </p>
+          </div>
+
+          <div class="albums-grid" id="albums-overview-grid">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Full Portfolio Showcase & Interactive Gallery -->
+      <section class="gallery-section" id="portfolio-gallery">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">Complete Archive</span>
+            <h2 class="section-title">Visual Portfolio Gallery</h2>
+            <p class="section-subtitle">
+              Filter by project to explore comprehensive documentation of framing bents, rafters, knee braces, and finish carpentry.
+            </p>
+          </div>
+
+          <div class="gallery-controls">
+            <!-- Filter Bar -->
+            <div class="filter-bar" id="gallery-filter-bar" role="tablist" aria-label="Project Filters">
+              <!-- Populated dynamically via JS -->
+            </div>
+
+            <!-- Meta & View Bar -->
+            <div class="gallery-meta-bar">
+              <div class="gallery-count-text" id="gallery-count-display">
+                Showing all photos
+              </div>
+
+              <div class="view-mode-group">
+                <button class="view-mode-btn active" data-mode="grid" title="Standard Grid View" aria-label="Standard Grid View">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+                </button>
+                <button class="view-mode-btn" data-mode="masonry" title="Masonry Flow View" aria-label="Masonry Flow View">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="11"/><rect x="14" y="3" width="7" height="6"/><rect x="14" y="12" width="7" height="9"/><rect x="3" y="17" width="7" height="4"/></svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Photos Grid -->
+          <div class="gallery-grid" id="gallery-photos-grid">
+            <!-- Populated dynamically via JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- The Craft & Joinery Section -->
+      <section class="craft-section" id="the-craft">
+        <div class="container">
+          <div class="section-header text-center" style="text-align: center; max-width: 680px; margin: 0 auto 3.5rem;">
+            <span class="section-tag">Traditional Craft</span>
+            <h2 class="section-title">The Art of Post &amp; Beam</h2>
+            <p class="section-subtitle" style="margin: 0 auto;">
+              Every Eastern River building is fabricated using centuries-old heavy timber framing techniques, precision mortise and tenon joinery, and sustainably sourced woods.
+            </p>
+          </div>
+
+          <div class="craft-grid">
+            <div class="craft-card">
+              <div class="craft-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+              </div>
+              <h3>Mortise &amp; Tenon Joinery</h3>
+              <p>
+                Hand-cut interlocking mortises, tenons, and hardwood trunnel pegs secure each joint without relying on nails or modern fasteners.
+              </p>
+            </div>
+
+            <div class="craft-card">
+              <div class="craft-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+              </div>
+              <h3>Native Eastern Timbers</h3>
+              <p>
+                Carefully selected eastern white pine, hemlock, and red oak timbers chosen for structural integrity, grain beauty, and thermal mass.
+              </p>
+            </div>
+
+            <div class="craft-card">
+              <div class="craft-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              </div>
+              <h3>Custom Engineering</h3>
+              <p>
+                Each frame layout is custom designed to maximize natural daylight, cathedral ceilings, open floor plans, and long-term energy efficiency.
+              </p>
+            </div>
+
+            <div class="craft-card">
+              <div class="craft-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <h3>Community Raisings</h3>
+              <p>
+                The culmination of shop fabrication comes together on raising day, assembling bents and raising the frame with precision and shared pride.
+              </p>
+            </div>
+          </div>
+
+          <!-- Archival Video Showcase -->
+          <div class="video-showcase-box">
+            <div class="video-container">
+              <video controls preload="metadata" poster="media/frame.JPG">
+                <source src="media/video/vnews-barn-raising-2008-july.mov" type="video/mp4" />
+                <source src="media/video/vnews-barn-raising-2008-july.mov" type="video/quicktime" />
+                Your browser does not support HTML5 video playback.
+              </video>
+            </div>
+            <div class="video-info">
+              <span class="section-tag">Archival Footage</span>
+              <h3>Valley News Barn Raising Archive</h3>
+              <p>
+                Documentary coverage of a traditional Vermont barn raising in July 2008, demonstrating the raising of heavy timber bents and community collaboration.
+              </p>
+              <div style="margin-top: 0.5rem;">
+                <a href="media/video/vnews-barn-raising-2008-july.mov" download class="btn btn-secondary" style="font-size: 0.8125rem;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                  Download Archival Video
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <div class="about-grid">
+            <div class="about-image-stack">
+              <div class="about-image-primary">
+                <img src="media/img/Profile-pictures/Profile-pictures-353909074691444.jpg" alt="Eastern River Post and Beam timber craftsman at work" />
+              </div>
+              <div class="about-quote-box">
+                <p>"Custom designed timber frame buildings for comfortable living."</p>
+                <span class="about-quote-author">— Eastern River Post and Beam</span>
+              </div>
+            </div>
+
+            <div class="about-content">
+              <span class="section-tag">About Us</span>
+              <h2 class="section-title">Built with Pride in Vermont</h2>
+              <p class="about-text">
+                Eastern River Post and Beam specializes in designing and building custom timber frame homes, barns, outbuildings, and structural additions. Rooted in Vermont's rich tradition of woodworking, we work closely with clients to create architectural spaces that celebrate natural wood, soaring volumes, and structural strength.
+              </p>
+              <p class="about-text">
+                From initial conceptual sketches through joinery cutting in our shop and final frame erection, we take pride in personal attention and timeless craftsmanship on every project.
+              </p>
+
+              <ul class="philosophy-list">
+                <li class="philosophy-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Individualized design tailored to your site and lifestyle</span>
+                </li>
+                <li class="philosophy-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Meticulous mortise and tenon joinery cut to exact tolerances</span>
+                </li>
+                <li class="philosophy-item">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Integration with high-performance insulation &amp; structural enclosures</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact & Inquiries Section -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="section-header text-center" style="text-align: center; max-width: 680px; margin: 0 auto 3.5rem;">
+            <span class="section-tag">Get in Touch</span>
+            <h2 class="section-title">Start Your Timber Frame Project</h2>
+            <p class="section-subtitle" style="margin: 0 auto;">
+              Whether you are planning a new custom home, barn, studio, or addition, we would love to discuss your vision, building site, and design requirements.
+            </p>
+          </div>
+
+          <div class="contact-cards-container">
+            <div class="contact-cards-grid">
+              <!-- Phone Card -->
+              <a href="tel:8027654704" class="contact-feature-card" aria-label="Call (802) 765-4704">
+                <div class="contact-feature-icon">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div class="contact-feature-content">
+                  <span class="contact-feature-label">Direct Phone</span>
+                  <span class="contact-feature-val">(802) 765-4704</span>
+                  <span class="contact-feature-sub">Call or leave a voicemail</span>
+                </div>
+              </a>
+
+              <!-- Email Card (Obfuscated via JS) -->
+              <a href="#" class="contact-feature-card js-obfuscated-email-card" aria-label="Email Us">
+                <div class="contact-feature-icon">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="contact-feature-content">
+                  <span class="contact-feature-label">Email Inquiries</span>
+                  <span class="contact-feature-val js-email-display">Click to Email</span>
+                  <span class="contact-feature-sub">Send project notes &amp; plans</span>
+                </div>
+              </a>
+
+              <!-- Location Card -->
+              <div class="contact-feature-card">
+                <div class="contact-feature-icon">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div class="contact-feature-content">
+                  <span class="contact-feature-label">Workshop Location</span>
+                  <span class="contact-feature-val">South Strafford, VT, USA</span>
+                  <span class="contact-feature-sub">Custom frames built regionally</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-note-banner">
+              <p>
+                <strong>Consultations by Appointment:</strong> We work directly with homeowners, architects, and builders throughout the timber framing design, fabrication, and raising process.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <h3>Eastern River Post and Beam</h3>
+            <p>
+              Custom designed timber frame buildings for comfortable living. Authentic hand-cut mortise and tenon structures crafted in Vermont.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul class="footer-links">
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#portfolio-overview">Projects</a></li>
+              <li><a href="#portfolio-gallery">Photo Gallery</a></li>
+              <li><a href="#the-craft">The Craft</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contact Info</h4>
+            <ul class="footer-links">
+              <li><a href="tel:8027654704">(802) 765-4704</a></li>
+              <li class="js-footer-email-item"><a href="#" class="js-footer-email-link js-footer-email">Contact via Email</a></li>
+              <li>South Strafford, VT, USA</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span>&copy; Eastern River Post and Beam. All rights reserved.</span>
+          <span>Traditional Timber Framing &amp; Joinery</span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Fullscreen Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Photo Lightbox Viewer">
+      <div class="lightbox-header">
+        <div class="lightbox-info">
+          <span class="lightbox-album-badge" id="lightbox-album-badge">Album</span>
+          <span class="lightbox-counter" id="lightbox-counter-display">1 / 161</span>
+        </div>
+
+        <div class="lightbox-actions">
+          <button class="lightbox-btn" id="lightbox-zoom-btn" title="Toggle Zoom (Z)" aria-label="Toggle Zoom">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+          </button>
+          <button class="lightbox-btn" id="lightbox-close-btn" title="Close Lightbox (Esc)" aria-label="Close Lightbox">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="lightbox-body">
+        <button class="lightbox-nav-btn" id="lightbox-prev-btn" title="Previous Photo (Left Arrow)" aria-label="Previous Photo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+
+        <div class="lightbox-image-stage">
+          <img id="lightbox-current-img" src="" alt="Full view" />
+        </div>
+
+        <button class="lightbox-nav-btn" id="lightbox-next-btn" title="Next Photo (Right Arrow)" aria-label="Next Photo">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+
+      <div class="lightbox-footer" id="lightbox-thumbnails-strip">
+        <!-- Thumbnails populated dynamically -->
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="media/js/gallery-data.js"></script>
+    <script src="media/js/app.js"></script>
   </body>
 </html>
