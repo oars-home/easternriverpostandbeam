@@ -2,47 +2,6 @@
 window.PORTFOLIO_DATA = {
   "albums": [
     {
-      "id": "Cover-photos",
-      "title": "Featured Highlights",
-      "subtitle": "Signature Timber Frames",
-      "description": "Masterfully crafted timber frame structures showcasing traditional mortise and tenon joinery set within natural Vermont landscapes.",
-      "tag": "Featured",
-      "count": 3,
-      "cover": "media/img/Cover-photos/Cover-photos-1544369248978748.jpg",
-      "images": [
-        {
-          "id": 1,
-          "filename": "Cover-photos-1544369248978748.jpg",
-          "src": "media/img/Cover-photos/Cover-photos-1544369248978748.jpg",
-          "albumId": "Cover-photos",
-          "albumTitle": "Featured Highlights",
-          "tag": "Featured",
-          "alt": "Featured Highlights - Photo 1",
-          "indexInAlbum": 1
-        },
-        {
-          "id": 2,
-          "filename": "Cover-photos-353906681358350.jpg",
-          "src": "media/img/Cover-photos/Cover-photos-353906681358350.jpg",
-          "albumId": "Cover-photos",
-          "albumTitle": "Featured Highlights",
-          "tag": "Featured",
-          "alt": "Featured Highlights - Photo 2",
-          "indexInAlbum": 2
-        },
-        {
-          "id": 3,
-          "filename": "Cover-photos-495637465900801.jpg",
-          "src": "media/img/Cover-photos/Cover-photos-495637465900801.jpg",
-          "albumId": "Cover-photos",
-          "albumTitle": "Featured Highlights",
-          "tag": "Featured",
-          "alt": "Featured Highlights - Photo 3",
-          "indexInAlbum": 3
-        }
-      ]
-    },
-    {
       "id": "25x31-with-mudroom",
       "title": "25\u00d731 Home with Mudroom",
       "subtitle": "Custom Residential Frame",
@@ -1689,10 +1648,10 @@ window.PORTFOLIO_DATA = {
       ]
     }
   ],
-  "totalPhotos": 161,
+  "totalPhotos": 158,
   "stats": {
-    "totalAlbums": 7,
-    "totalPhotos": 161,
+    "totalAlbums": 6,
+    "totalPhotos": 158,
     "yearsExperience": "25+",
     "location": "South Strafford, VT, USA"
   }
