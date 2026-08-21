@@ -850,7 +850,7 @@ a.contact-feature-card:hover .contact-feature-icon {
 
 .contact-feature-val {
   font-family: var(--font-serif);
-  font-size: 1.3rem;
+  font-size: 1.0rem;
   font-weight: 600;
   color: var(--text-primary);
   line-height: 1.25;

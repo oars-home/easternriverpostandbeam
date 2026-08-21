@@ -263,8 +263,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // ==========================================
   function setupEmailObfuscation() {
     // Break email string into parts so automated email harvest crawlers scanning raw HTML cannot scrape it
-    const user = 'info';
-    const domainParts = ['easternriverpostandbeam', 'com'];
+    const user = 'hunter.grossman15';
+    const domainParts = ['gmail', 'com'];
     const emailAddress = user + '@' + domainParts.join('.');
     const encodedSubject = encodeURIComponent('Timber Frame Inquiry - Eastern River Post and Beam');
     const mailtoLink = 'mailto:' + emailAddress + '?subject=' + encodedSubject;
